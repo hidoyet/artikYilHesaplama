@@ -6,15 +6,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		System.out.println("Yılı giriniz");
+		System.out.println("YÄ±lÄ± giriniz");
 		int year=scanner.nextInt();
 		if(year%4==0) {
-			System.out.println("artık yıldır");
+			System.out.println("ArtÄ±k yÄ±ldÄ±r");
 		}else {
-			System.out.println("artık yıl değildir");
+			System.out.println("ArtÄ±k yÄ±l deÄŸildir");
 		}
-		
-
 	}
-
 }
